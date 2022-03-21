@@ -16,6 +16,7 @@
     "url": "https://github.com/shbhm0/git_action.git"
   },
   "dependencies": {
+    "firebase-tools": "^10.2.2",
     "react": "17.0.2",
     "react-native": "0.67.3"
   },
