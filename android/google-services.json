@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "526209137763",
+    "project_id": "gitubaction",
+    "storage_bucket": "gitubaction.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526209137763:android:860c1efa6ba084e8d84c56",
+        "android_client_info": {
+          "package_name": "com.githubaction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526209137763-frh0r44v4q8lms0p8d6a5bt8oqi73ait.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXysSW0WIpR9Qoh8CKu3uTeHHnlu32khE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526209137763-frh0r44v4q8lms0p8d6a5bt8oqi73ait.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
