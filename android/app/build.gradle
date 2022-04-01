@@ -1,5 +1,5 @@
 apply plugin: "com.android.application"
-// apply plugin: 'com.google.firebase.appdistribution'
+apply plugin: 'com.google.firebase.appdistribution'
 import com.android.build.OutputFile
 
 /**
@@ -176,12 +176,12 @@ android {
             signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-            // firebaseAppDistribution {
-            //     artifactType="APK"
-            //     // releaseNotesFile="/path/to/releasenotes.txt"
-            //     appId='1:526209137763:android:860c1efa6ba084e8d84c56'
-            //     // testers="ali@example.com, bri@example.com, cal@example.com"
-            // }
+            firebaseAppDistribution {
+                artifactType="APK"
+                // releaseNotesFile="/path/to/releasenotes.txt"
+                appId='1:526209137763:android:860c1efa6ba084e8d84c56'
+                // testers="ali@example.com, bri@example.com, cal@example.com"
+            }
         }
     }
 
